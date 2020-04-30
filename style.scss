@@ -9,6 +9,41 @@
 $grey: #171717;
 $lightgrey: #202020;
 
+$light-font-color: #aaaaaa;
+
 body {
   background-color: $grey;
+}
+
+header {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: auto 1fr auto;
+  height: 6vh;
+  background-color: coral;
+  .header-left {
+    .menu-icon {
+      height: 16px;
+    }
+    .youtube-icon {
+      height: 24px;
+    }
+  }
+  .header-mid {
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    > * {
+      padding: 0 12px;
+    }
+    .avatar {
+      height: 24px;
+      width: 24px;
+      border-radius: 50%;
+      background-color: teal;
+    }
+  }
 }
