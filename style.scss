@@ -9,6 +9,7 @@
 li {
   list-style-type: none;
 }
+
 $grey1000: #222222;
 $grey900: #3b3b3b;
 $grey800: #515151;
@@ -21,12 +22,18 @@ $grey200: #e1e1e1;
 $grey100: #f7f7f7;
 
 body {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+    "header header"
+    "nav main";
   background-color: $grey1000;
   color: white;
   font-family: Poppins, sans-serif;
 }
 
 header {
+  grid-area: header;
   display: grid;
   align-items: center;
   justify-items: center;
@@ -86,6 +93,7 @@ header {
 }
 
 nav {
+  grid-area: nav;
   width: 240px;
   height: calc(100vh - 6vh);
   overflow-y: scroll;
@@ -117,4 +125,8 @@ nav {
       color: $grey500;
     }
   }
+}
+
+main {
+  grid-area: main;
 }
