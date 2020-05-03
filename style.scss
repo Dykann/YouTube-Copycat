@@ -136,23 +136,35 @@ main {
     font-size: 18px;
     padding-bottom: 12px;
   }
-  article {
-    .video-top {
-      width: 288px;
-      height: 176px;
-      overflow: hidden;
-      img {
-        // object-fit: cover;
+
+  .container-grid {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    grid-row-gap: 32px;
+    grid-column-gap: 24px;
+    .video {
+      .video-top {
+        width: 256px;
+        height: 160px;
+        overflow: hidden;
+        position: relative;
+        img {
+          object-fit: cover;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
       }
-    }
-    .video-bottom {
-      font-size: 14px;
-      .video-title {
-        padding: 6px 0 3px;
-        font-weight: 500;
-      }
-      .video-author {
-        color: $grey400;
+      .video-bottom {
+        font-size: 14px;
+        .video-title {
+          padding: 6px 0 3px;
+          font-weight: 500;
+        }
+        .video-author {
+          color: $grey400;
+        }
       }
     }
   }
