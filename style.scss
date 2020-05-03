@@ -96,16 +96,18 @@ nav {
     border-bottom: 1px solid $grey700;
     .container {
       .category {
+        display: grid;
+        grid-template-columns: 12px 1fr;
+        align-items: center;
         padding: 12px 24px;
         font-size: 14px;
         cursor: pointer;
         &:hover {
           background-color: $grey700;
         }
-        // span {
-        //   padding-left: 24px;
-        //   background-color: red;
-        // }
+        .category-description {
+          padding-left: 16px;
+        }
       }
     }
     .subtitle {
