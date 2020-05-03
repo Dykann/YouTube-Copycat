@@ -38,6 +38,7 @@ header {
   .header-left {
     display: flex;
     align-items: center;
+    cursor: pointer;
     .menu-icon {
       height: 18px;
       padding-right: 24px;
@@ -63,13 +64,14 @@ header {
       border: 1px solid $grey700;
       padding: 0 24px;
       color: $grey500;
+      cursor: pointer;
     }
   }
 
   .header-right {
     display: flex;
     align-items: center;
-
+    cursor: pointer;
     > i {
       padding-right: 24px;
     }
