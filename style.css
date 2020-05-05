@@ -52,7 +52,7 @@ header .header-left {
 }
 
 header .header-left .menu-icon {
-  height: 18px;
+  height: 16px;
   padding-right: 24px;
   fill: white;
 }
@@ -171,6 +171,10 @@ main .title-section {
   font-weight: 700;
   font-size: 18px;
   padding-bottom: 12px;
+}
+
+main .title-section.title-center {
+  padding-bottom: 24px;
 }
 
 main .container-grid {

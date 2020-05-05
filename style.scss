@@ -47,7 +47,7 @@ header {
     align-items: center;
     cursor: pointer;
     .menu-icon {
-      height: 18px;
+      height: 16px;
       padding-right: 24px;
       fill: white;
     }
@@ -144,6 +144,9 @@ main {
     font-weight: 700;
     font-size: 18px;
     padding-bottom: 12px;
+  }
+  .title-section.title-center {
+    padding-bottom: 24px;
   }
 
   .container-grid {
