@@ -162,6 +162,10 @@ main .video-section {
   padding: 32px 0;
 }
 
+main .video-section.no-border {
+  border: none;
+}
+
 main .title-section {
   padding-left: 4px;
   font-weight: 700;
