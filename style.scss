@@ -120,7 +120,7 @@ nav {
     }
     .subtitle {
       font-size: 16px;
-      padding: 0 32px;
+      padding: 0 24px;
       line-height: 20px;
       color: $grey500;
     }
@@ -130,6 +130,9 @@ nav {
 main {
   grid-area: main;
   padding: 32px 24px;
+  .video-section {
+    border-bottom: 3px solid $grey900;
+  }
   .title-section {
     padding-left: 4px;
     font-weight: 700;
@@ -165,7 +168,18 @@ main {
         .video-author {
           color: $grey400;
         }
+        .video-cinq-author {
+          padding-bottom: 32px;
+        }
       }
     }
+  }
+}
+
+.second-video-section {
+  height: 1000px;
+  .second-section-title {
+    padding-top: 16px;
+    font-size: 18px;
   }
 }

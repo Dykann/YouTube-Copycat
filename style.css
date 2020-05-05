@@ -143,7 +143,7 @@ nav section .container .category .category-description {
 
 nav section .subtitle {
   font-size: 16px;
-  padding: 0 32px;
+  padding: 0 24px;
   line-height: 20px;
   color: #9e9e9e;
 }
@@ -153,6 +153,10 @@ main {
   -ms-grid-column: 2;
   grid-area: main;
   padding: 32px 24px;
+}
+
+main .video-section {
+  border-bottom: 3px solid #3b3b3b;
 }
 
 main .title-section {
@@ -200,5 +204,18 @@ main .container-grid .video .video-bottom .video-title {
 
 main .container-grid .video .video-bottom .video-author {
   color: #b1b1b1;
+}
+
+main .container-grid .video .video-bottom .video-cinq-author {
+  padding-bottom: 32px;
+}
+
+.second-video-section {
+  height: 1000px;
+}
+
+.second-video-section .second-section-title {
+  padding-top: 16px;
+  font-size: 18px;
 }
 /*# sourceMappingURL=style.css.map */
