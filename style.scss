@@ -65,6 +65,7 @@ header {
       border: 1px solid $grey700;
       color: white;
       font-size: 14px;
+      outline: none;
     }
     button {
       background-color: $grey900;
@@ -72,6 +73,7 @@ header {
       padding: 0 24px;
       color: $grey500;
       cursor: pointer;
+      outline: none;
     }
   }
 

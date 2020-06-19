@@ -74,6 +74,7 @@ header .header-mid input[type="text"] {
   border: 1px solid #626262;
   color: white;
   font-size: 14px;
+  outline: none;
 }
 
 header .header-mid button {
@@ -82,6 +83,7 @@ header .header-mid button {
   padding: 0 24px;
   color: #9e9e9e;
   cursor: pointer;
+  outline: none;
 }
 
 header .header-right {
