@@ -104,7 +104,7 @@ header .header-right .avatar {
   height: 32px;
   width: 32px;
   border-radius: 50%;
-  background-color: teal;
+  background-color: rgba(0, 128, 128, 0.694);
 }
 
 nav {
@@ -255,4 +255,4 @@ main .container-grid .video .video-bottom .video-author {
     padding: 0 12px;
   }
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styles.css.map */
