@@ -3,7 +3,7 @@
 In order to demonstrate my abilities to reproduce any website mock-up (<strong>interface</strong>) <br>
 I chose to re-create from scratch 3 three famous social media: <strong> YouTube, Netflix and Facebook </strong> <br>
 The current one <strong> YouTube </strong> is <strong> Responsive</strong> and in <strong> Dark Theme </strong> <br>
-I Integrated it with: <strong> HTML,SASS and JS</strong>
+I Integrated it with: <strong> HTML and SASS</strong>
 
 You can check the website on: https://youtube-dykann.netlify.app/
 
