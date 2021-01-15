@@ -1,4 +1,4 @@
-# YouTube copycat.
+# YouTube copycat
 
 I made it my way by adding the images for the different categories and in Dark theme.
 
